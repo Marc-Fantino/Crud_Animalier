@@ -69,7 +69,7 @@ die();
         </form>
 </header>
 <div class="container-fluid bg-warning">
-    <h1 class="text-center">Bienvenue : <?=$_SESSION['prenom']?></h1>
+    <h1 class="text-center">Bienvenue : <?=$_SESSION['email']?></h1>
 
 
     <h3 class="text-center ">Mes produits</h3>

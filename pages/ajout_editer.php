@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-if(isset($_SESSION['prenom'])){
+if(isset($_SESSION['email'])){
 function deconnexion() {
 session_unset();
 session_destroy();

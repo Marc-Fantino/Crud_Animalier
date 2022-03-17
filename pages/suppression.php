@@ -65,7 +65,7 @@ $detail = $request->fetch(PDO::FETCH_ASSOC);
 <body>
     <header><?php require_once "header.php";?></header>
     <div class="container-fluid bg-warning">
-                    <h1 class="text-center">Bienvenue : <?=$_SESSION['prenom']?></h1>
+                    <h1 class="text-center">Bienvenue : <?=$_SESSION['email']?></h1>
                 
                 
                     <h3 class="text-center ">Suppresion des produits</h3
