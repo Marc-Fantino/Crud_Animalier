@@ -1,0 +1,35 @@
+.bouton-connexion{
+margin-left: 14 rem;
+
+}
+
+#dragon{
+
+background-image: url(../img/bali.jpg);
+background-size: cover;
+}
+
+#sable{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/sable.jpg);
+    background-size: cover;
+    }
+#desert{
+        width: 100%;
+        height: 100%;
+        background-image: url(../img/desert.jpg);
+        background-size: cover;
+        }
+#jungle{
+        width: 100%;
+        height: 100%;
+        background-image: url(../img/jungle.jpg);
+        background-size: cover;
+}
+#bambou{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/bambou.jpg);
+    background-size: cover;
+}
