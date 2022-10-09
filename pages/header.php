@@ -11,9 +11,11 @@
 </head>
 <body>
 <div class="navbar bg-dark p-4">
-  <a class="active" href="../index.php"><i class="fa fa-fw fa-home fa-2x"></i> Accueil</a>
-  <a href="#"><i class="fa fa-fw fa-search fa-2x"></i> Search</a>
-  <a href="#"><i class="fa fa-fw fa-envelope fa-2x"></i> Contact</a>
+  <a class="active" href="premierMenu.php"><i class="fa fa-fw fa-home fa-2x"></i> Accueil</a>
+  <a href="menu_produit.php"><i class="fa fa-fw fa-search fa-2x"></i> Produit</a>
+  <a href="menu_materiel.php"><i class="fa fa-fw fa-search fa-2x"></i> Materiel</a>
+  
+  
 </div>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

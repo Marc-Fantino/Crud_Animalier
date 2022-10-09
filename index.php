@@ -13,6 +13,7 @@ session_start();
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -72,8 +73,7 @@ function connexion(){
                 //htmlspecialchars — Convertit les caractères spéciaux en entités HTML :: Cette fonction retourne une chaîne de caractères avec ces modificationss
          $emailUser = trim(htmlspecialchars($_POST['email']));
          $passwordUser = trim(htmlspecialchars($_POST['password']));
-            var_dump($emailUser);
-            var_dump($passwordUser);
+           
               //Requete avec le prediquats AND = &&
         $sql ="SELECT * FROM user WHERE email = ? AND password = ? ";
 
@@ -90,18 +90,18 @@ function connexion(){
                      //Si on a au moins 1 utilisateur dans table (index du tableau commence par 0)
             if($connexionUser->rowCount() >=0 ){
                 $ligneUser = $connexionUser->fetch();
-                var_dump($ligneUser);
+                
                 if($ligneUser){
                     echo "ligne";
                     $email = $ligneUser['email'];
-                    var_dump($email);
+                    
                     $password = $ligneUser['password'];
-                    var_dump($password);
+                    
                     if($emailUser == $email && $passwordUser == $password){
 
                         $_SESSION['email'] = $emailUser;
                         echo "ok";
-                        header("location: pages/menu.php");
+                        header("location: pages/premierMenu.php");
                         //Erreur de mail et mot de passe
                        // echo "<a href='pages/menu.php'>page d'accueil</a>";
                     }else{

@@ -90,7 +90,7 @@ die();
                                 </p>
                                 
                             <div class="container d-flex justify-content-center text-center">
-                                    <a href="menu.php" class="mt-2 btn btn-success">Retour au menu</a>
+                                    <a href="menu_produit.php" class="mt-2 btn btn-success">Retour au menu</a>
                                     
                             </div>
                         
